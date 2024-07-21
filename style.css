@@ -75,18 +75,9 @@ a {
   height: var(--header-height);
 }
 .nav__data {
-  height: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-.nav__logo {
-  display: inline-flex;
-  align-items: center;
-  column-gap: 0.25rem;
-  color: var(--title-color);
-  font-weight: var(--font-semi-bold);
-  transition: color 0.3s;
 }
 .nav__logo i {
   font-size: 1.25rem;
